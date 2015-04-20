@@ -1,9 +1,7 @@
 # musiXmeta
 
-* * *
-
 ### Verteiltesysteme
 
 * * *
 
-##### Webservice
+**Webservice**
