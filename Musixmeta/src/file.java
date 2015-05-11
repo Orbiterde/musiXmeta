@@ -3,6 +3,6 @@
  *
  * @author Romeo Beckert, Martin Borsdorf
  */
-public class Eigenschaften {
+public class file {
     
 }
