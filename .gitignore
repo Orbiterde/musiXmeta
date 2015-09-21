@@ -1,1 +1,13 @@
 /Musixmeta/nbproject/private/
+
+*.log
+*.aux
+*.out
+*.lof
+*.pdf
+*.gz
+*.lot
+*.toc
+*.xml
+*.nav
+*.snm
