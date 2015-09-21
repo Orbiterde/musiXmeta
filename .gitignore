@@ -12,3 +12,7 @@
 *.nav
 *.snm
 /musiXmeta_rest/.nb-gradle/
+*.bin
+*.js
+*.css
+*.MF
