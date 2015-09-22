@@ -14,29 +14,61 @@ public class Plattenfirma {
     private int grJahr;
     
     
-    public String name(){
+    public String getName(){
         
         return name;
     }
     
-    public void grJahr(int grJahr){
+    public void setName(String name){
+        
+        this.name = name;
+    }
+    
+    
+    
+    public int getGrJahr(){
+        
+        return grJahr;
+    }
+    
+    public void setGrJahr(int grJahr){
         
         this.grJahr = grJahr;
     }
     
-    public String kuenstler(){
+    
+    
+    public String getKuenstler(){
         
         return kuenstler;
     }
     
-    public String sitz(){
+    public void setKuenstler(String kuenstler){
+        
+        this.kuenstler = kuenstler;
+    }
+    
+    
+    
+    public String getSitz(){
         
         return sitz;
     }
     
-    public String konzern(){
+    public void setSize(String size){
+        
+        this.sitz = size;
+    }
+    
+    
+    
+    public String getKonzern(){
         
         return konzern;
     }
     
+    public void setKonzern(String konzern){
+        
+        this.konzern = konzern;
+    }
 }

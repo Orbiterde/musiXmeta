@@ -12,17 +12,36 @@ public class Interpret {
     private int grJahr;
     
     
-    public String gruppe(){
+    public String getGruppe(){
         
         return gruppe;
     }
     
-    public String mitglieder(){
+    public void setGruppe(String gruppe){
+        
+        this.gruppe = gruppe;
+    }
+    
+    
+    
+    public String getMitglieder(){
         
         return mitglieder;
     }
     
-    public void grJahr(int grjahr){
+    public void setMitglieder(String mitglieder){
+        
+        this.mitglieder = mitglieder;
+    }
+    
+    
+    
+    public int getGrJahr(){
+        
+        return grJahr;
+    }
+    
+    public void setGrJahr(int grjahr){
         
         this.grJahr = grJahr;
     }

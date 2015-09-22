@@ -28,34 +28,74 @@ public class file {
     private int laenge, bitrate, abtastrate, groesse;
     
     
-    public String name(){
+    public String getName(){
         
         return name;
     }
     
-    public void laenge(int laenge){
+    public void setname(String name){
+        
+        this.name = name;
+    }
+    
+    
+    
+    public int getLaenge(){
+        
+        return laenge;
+    }
+    
+    public void setLaenge(int laenge){
         
         this.laenge = laenge;
     }
     
-    public void bitrate(int bitrate){
+    
+    
+    public int getBitrate(){
+        
+        return bitrate;
+    }
+    
+    public void setBitrate(int bitrate){
         
         this.bitrate = bitrate;
     }
     
-    public void abtastrate(int abtastrate){
+    
+    
+    public int getAbtastrate(){
+        
+        return abtastrate;
+    }
+    
+    public void setAbtastrate(int abtastrate){
         
         this.abtastrate = abtastrate;
     }
     
-    public void groesse(int groesse){
+    
+    
+    public int getGroesse(){
+        
+        return groesse;
+    }
+    
+    public void setGroesse(int groesse){
         
         this.groesse = groesse;
     }
     
-    public String format(){
+    
+    
+    public String getFormat(){
         
         return format;
+    }
+    
+    public void setFormat(String format){
+        
+        this.format = format;
     }
 
 

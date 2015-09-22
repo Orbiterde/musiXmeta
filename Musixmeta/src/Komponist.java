@@ -11,22 +11,49 @@ public class Komponist {
     private String name, vorname;
     private int gebJahr, stJahr;
     
-    public String name(){
+    
+    public String getName(){
         
         return name;
     }
     
-    public String vorname(){
+    public void setName(String name){
+        
+        this.name = name;
+    }
+    
+    
+    
+    public String getVorname(){
         
         return vorname;
     }
     
-    public void gebJahr(int gebJahr){
+    public void setVorname(String vorname){
+        
+        this.vorname = vorname;
+    }
+    
+    
+    
+    public int getGebJahr(){
+        
+        return gebJahr;
+    }
+    
+    public void setGebJahr(int gebJahr){
         
         this.gebJahr = gebJahr;
     }
     
-    public void stJahr(int stJahr){
+    
+    
+    public int getStJahr(){
+        
+        return stJahr;
+    }
+    
+    public void setStJahr(int stJahr){
         
         this.stJahr = stJahr;
     }

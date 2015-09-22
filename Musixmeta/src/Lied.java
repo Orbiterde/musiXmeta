@@ -15,37 +15,84 @@ public class Lied {
     private int jahr;
     
     
-    public String titel(){
+    public String getTitel(){
         
         return titel;
     }
     
-    public String interpret(){
+    public void setTitel(String titel){
+        
+        this.titel = titel;
+    }
+    
+    
+    
+    public String getInterpret(){
         
         return interpret;
     }
     
-    public String komponist(){
+    public void setInterpret(String interpret){
+        
+        this.interpret = interpret;
+    }
+    
+    
+    
+    public String getKomponist(){
         
         return komponist;
     }
     
-    public String albumInterpret(){
+    public void setKomponist(String komponist){
+        
+        this.komponist = komponist;
+    }
+    
+    
+    
+    public String getAlbumInterpret(){
         
         return albumInterpret;
     }
     
-    public String album(){
+    public void setAlbumInterpret(String albumInterpret){
+        
+        this.albumInterpret = albumInterpret;
+    }
+    
+    
+    
+    public String getAlbum(){
         
         return album;
     }
     
-    public String genre(){
+    public void setAlbum(String album){
+        
+        this.album = album;
+    }
+    
+    
+    
+    public String getGenre(){
         
         return genre;
     }
     
-    public void jahr(int jahr){
+    public void setGenre(String genre){
+        
+        this.genre = genre;
+    }
+    
+    
+    
+    public void getJahr(int jahr){
+        
+        this.jahr = jahr;
+    }
+    
+    public void setJahr(int jahr){
         
         this.jahr = jahr;
     }
