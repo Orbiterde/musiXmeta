@@ -1,3 +1,5 @@
+package musiXmeta.core;
+
 /*  name
     vorname
     gruppe

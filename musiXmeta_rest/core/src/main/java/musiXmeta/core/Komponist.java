@@ -1,24 +1,17 @@
+package musiXmeta.core;
+
 /*  name
     vorname
-    gruppe
     geb.-jahr
-    geb.-ort
     st.-jahr
-    anschrift
-    */
-
+    */ 
 /**
  *
  * @author Romeo Beckert, Martin Borsdorf
  */
-public class GMitglieder {
-    private String name, vorname, gruppe, gebOrt, anschrift;
+public class Komponist {
+    private String name, vorname;
     private int gebJahr, stJahr;
- 
-    public GMitglieder(){
-        
-        GMitglieder GM = new GMitglieder();
-    }
     
     
     public String getName(){
@@ -45,18 +38,6 @@ public class GMitglieder {
     
     
     
-    public String getGruppe(){
-        
-        return gruppe;
-    }
-    
-    public void setGruppe(String gruppe){
-        
-        this.gruppe = gruppe;
-    }
-    
-    
-    
     public int getGebJahr(){
         
         return gebJahr;
@@ -69,19 +50,7 @@ public class GMitglieder {
     
     
     
-    public String getGebOrt(){
-        
-        return gebOrt;
-    }
-    
-    public void setGebOrt(String gebOrt){
-        
-        this.gebOrt = gebOrt;
-    }
-    
-    
-    
-    public int getStjahr(){
+    public int getStJahr(){
         
         return stJahr;
     }
@@ -89,17 +58,5 @@ public class GMitglieder {
     public void setStJahr(int stJahr){
         
         this.stJahr = stJahr;
-    }
-    
-    
-    
-    public String getAnschrift(){
-        
-        return anschrift;
-    }
-    
-    public void setAnschrift(String anschrift){
-        
-        this.anschrift = anschrift;
     }
 }
